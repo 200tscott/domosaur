@@ -1,5 +1,5 @@
 function changFontSize() {
-    let text = document.querySelector("p.mess-with-me").style.fontSize = '40px';
+    let text = document.querySelector("span.mess-with-me").style.fontSize = '40px';
     let backGroundColor = document.querySelector("p.mess-with-me").style.backgroundColor = 'green'; 
     console.log(text); 
     console.log(backGroundColor); 
